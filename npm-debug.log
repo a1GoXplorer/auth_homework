@@ -1,0 +1,164 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'cookie-sessionpassport',
+1 verbose cli   'passport-local' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'cookie-sessionpassport', null ]
+5 verbose cache add name=undefined spec="cookie-sessionpassport" args=["cookie-sessionpassport",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'cookie-sessionpassport',
+6 verbose parsed url   path: 'cookie-sessionpassport',
+6 verbose parsed url   href: 'cookie-sessionpassport' }
+7 verbose cache add [ 'passport-local', null ]
+8 verbose cache add name=undefined spec="passport-local" args=["passport-local",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'passport-local',
+9 verbose parsed url   path: 'passport-local',
+9 verbose parsed url   href: 'passport-local' }
+10 silly lockFile 55e8b0e4-cookie-sessionpassport cookie-sessionpassport
+11 verbose lock cookie-sessionpassport /Users/MasterControl/.npm/55e8b0e4-cookie-sessionpassport.lock
+12 silly lockFile defa4f15-passport-local passport-local
+13 verbose lock passport-local /Users/MasterControl/.npm/defa4f15-passport-local.lock
+14 silly lockFile 55e8b0e4-cookie-sessionpassport cookie-sessionpassport
+15 silly lockFile 55e8b0e4-cookie-sessionpassport cookie-sessionpassport
+16 silly lockFile defa4f15-passport-local passport-local
+17 silly lockFile defa4f15-passport-local passport-local
+18 verbose addNamed [ 'cookie-sessionpassport', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile d1b4799e-cookie-sessionpassport cookie-sessionpassport@
+21 verbose lock cookie-sessionpassport@ /Users/MasterControl/.npm/d1b4799e-cookie-sessionpassport.lock
+22 verbose addNamed [ 'passport-local', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 20688a51-passport-local passport-local@
+25 verbose lock passport-local@ /Users/MasterControl/.npm/20688a51-passport-local.lock
+26 silly addNameRange { name: 'cookie-sessionpassport', range: '*', hasData: false }
+27 silly addNameRange { name: 'passport-local', range: '*', hasData: false }
+28 verbose request where is /cookie-sessionpassport
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 61c2a9a431e36308
+31 verbose url raw /cookie-sessionpassport
+32 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-sessionpassport' ]
+33 verbose url resolved https://registry.npmjs.org/cookie-sessionpassport
+34 verbose request where is https://registry.npmjs.org/cookie-sessionpassport
+35 info trying registry request attempt 1 at 21:26:52
+36 http GET https://registry.npmjs.org/cookie-sessionpassport
+37 verbose request where is /passport-local
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /passport-local
+40 verbose url resolving [ 'https://registry.npmjs.org/', './passport-local' ]
+41 verbose url resolved https://registry.npmjs.org/passport-local
+42 verbose request where is https://registry.npmjs.org/passport-local
+43 info trying registry request attempt 1 at 21:26:52
+44 http GET https://registry.npmjs.org/passport-local
+45 http 200 https://registry.npmjs.org/passport-local
+46 silly registry.get cb [ 200,
+46 silly registry.get   { date: 'Wed, 10 Dec 2014 05:26:52 GMT',
+46 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+46 silly registry.get     etag: '"F2MBNKV8QACAF4X2DU6NVNKR8"',
+46 silly registry.get     'content-type': 'application/json',
+46 silly registry.get     'cache-control': 'max-age=60',
+46 silly registry.get     'content-length': '13445',
+46 silly registry.get     'accept-ranges': 'bytes',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     age: '33',
+46 silly registry.get     'x-served-by': 'cache-sjc3122-SJC',
+46 silly registry.get     'x-cache': 'HIT',
+46 silly registry.get     'x-cache-hits': '1',
+46 silly registry.get     'x-timer': 'S1418189212.733241,VS0,VE0',
+46 silly registry.get     vary: 'Accept',
+46 silly registry.get     'keep-alive': 'timeout=10, max=50',
+46 silly registry.get     connection: 'Keep-Alive' } ]
+47 silly addNameRange number 2 { name: 'passport-local', range: '*', hasData: true }
+48 silly addNameRange versions [ 'passport-local',
+48 silly addNameRange   [ '0.1.0',
+48 silly addNameRange     '0.1.1',
+48 silly addNameRange     '0.1.2',
+48 silly addNameRange     '0.1.3',
+48 silly addNameRange     '0.1.4',
+48 silly addNameRange     '0.1.5',
+48 silly addNameRange     '0.1.6',
+48 silly addNameRange     '1.0.0' ] ]
+49 verbose addNamed [ 'passport-local', '1.0.0' ]
+50 verbose addNamed [ '1.0.0', '1.0.0' ]
+51 silly lockFile 8defd22e-passport-local-1-0-0 passport-local@1.0.0
+52 verbose lock passport-local@1.0.0 /Users/MasterControl/.npm/8defd22e-passport-local-1-0-0.lock
+53 silly lockFile 4bf3bb31-t-local-passport-local-1-0-0-tgz https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+54 verbose lock https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz /Users/MasterControl/.npm/4bf3bb31-t-local-passport-local-1-0-0-tgz.lock
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz',
+55 verbose addRemoteTarball   '1fe63268c92e75606626437e3b906662c15ba6ee' ]
+56 info retry fetch attempt 1 at 21:26:53
+57 verbose fetch to= /var/folders/3x/5y5229516v14skxdg5972hj80000gn/T/npm-9209-wtrpVVky/registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+58 http GET https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+59 http 404 https://registry.npmjs.org/cookie-sessionpassport
+60 verbose headers { date: 'Wed, 10 Dec 2014 05:26:53 GMT',
+60 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+60 verbose headers   'content-type': 'application/json',
+60 verbose headers   'cache-control': 'max-age=0',
+60 verbose headers   'content-length': '52',
+60 verbose headers   'accept-ranges': 'bytes',
+60 verbose headers   via: '1.1 varnish',
+60 verbose headers   age: '0',
+60 verbose headers   'x-served-by': 'cache-sjc3128-SJC',
+60 verbose headers   'x-cache': 'MISS',
+60 verbose headers   'x-cache-hits': '0',
+60 verbose headers   'x-timer': 'S1418189213.421251,VS0,VE156',
+60 verbose headers   'keep-alive': 'timeout=10, max=50',
+60 verbose headers   connection: 'Keep-Alive' }
+61 silly registry.get cb [ 404,
+61 silly registry.get   { date: 'Wed, 10 Dec 2014 05:26:53 GMT',
+61 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+61 silly registry.get     'content-type': 'application/json',
+61 silly registry.get     'cache-control': 'max-age=0',
+61 silly registry.get     'content-length': '52',
+61 silly registry.get     'accept-ranges': 'bytes',
+61 silly registry.get     via: '1.1 varnish',
+61 silly registry.get     age: '0',
+61 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+61 silly registry.get     'x-cache': 'MISS',
+61 silly registry.get     'x-cache-hits': '0',
+61 silly registry.get     'x-timer': 'S1418189213.421251,VS0,VE156',
+61 silly registry.get     'keep-alive': 'timeout=10, max=50',
+61 silly registry.get     connection: 'Keep-Alive' } ]
+62 silly lockFile d1b4799e-cookie-sessionpassport cookie-sessionpassport@
+63 silly lockFile d1b4799e-cookie-sessionpassport cookie-sessionpassport@
+64 http 200 https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+65 silly lockFile 4bf3bb31-t-local-passport-local-1-0-0-tgz https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+66 silly lockFile 4bf3bb31-t-local-passport-local-1-0-0-tgz https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+67 silly lockFile 8defd22e-passport-local-1-0-0 passport-local@1.0.0
+68 silly lockFile 8defd22e-passport-local-1-0-0 passport-local@1.0.0
+69 silly lockFile 20688a51-passport-local passport-local@
+70 silly lockFile 20688a51-passport-local passport-local@
+71 error 404 404 Not Found: cookie-sessionpassport
+71 error 404
+71 error 404 'cookie-sessionpassport' is not in the npm registry.
+71 error 404 You should bug the author to publish it
+71 error 404
+71 error 404 Note that you can also install from a
+71 error 404 tarball, folder, or http url, or git url.
+72 error System Darwin 13.4.0
+73 error command "node" "/usr/local/bin/npm" "install" "--save" "cookie-sessionpassport" "passport-local"
+74 error cwd /Users/MasterControl/Documents/auth_homework
+75 error node -v v0.10.33
+76 error npm -v 1.4.28
+77 error code E404
+78 verbose exit [ 1, true ]

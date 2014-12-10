@@ -1,0 +1,19 @@
+<!--views/site/index.ejs-->
+<!DOCTYPE HTML>
+<html>
+<body>
+<h1>Site index</h1>
+  <% if (user) { %>
+    Logged in as <%= user.email %><br>
+    <a href="/logout">Logout</a>
+  <% } else { %>
+    Welcome to our site
+    <div>
+      <a href="/login">Log In </a>
+    </div>
+    <div>
+      <a href="/sign_up">Sign Up</a>
+    </div>
+  <% } %>
+</body>
+</html>
